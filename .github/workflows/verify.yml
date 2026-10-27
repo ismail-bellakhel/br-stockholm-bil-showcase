@@ -1,0 +1,11 @@
+name: Verify public code samples
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test selected behavior
+        run: node --test sample.test.mjs
