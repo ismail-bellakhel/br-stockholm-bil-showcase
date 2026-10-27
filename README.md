@@ -1,17 +1,17 @@
 # BR Stockholm Bil — Headless Website & Inventory Automation
 
-**[Open the interactive preview →](https://ismail-bellakhel.github.io/br-stockholm-bil-showcase/)** · [![Verify samples](https://github.com/ismail-bellakhel/br-stockholm-bil-showcase/actions/workflows/verify.yml/badge.svg)](https://github.com/ismail-bellakhel/br-stockholm-bil-showcase/actions/workflows/verify.yml)
+**[Open the live website →](https://www.brstockholmbil.se/)** · [![Verify samples](https://github.com/ismail-bellakhel/br-stockholm-bil-showcase/actions/workflows/verify.yml/badge.svg)](https://github.com/ismail-bellakhel/br-stockholm-bil-showcase/actions/workflows/verify.yml)
 
 **A dealership website connecting vehicle listings, technical SEO and a repeatable publishing workflow.**
 
-Public showcase by **Ismail Bellakhel**. Selected code and an interactive example are included; the complete application and its Git history remain private.
+Public showcase by **Ismail Bellakhel**. The live website, screenshots and selected code are included; the complete application and its Git history remain private.
 
-![Interactive inventory safeguard preview](preview.png)
+![BR Stockholm Bil — live dealership website](preview.png)
 
 ## Start here — a two-minute review
 
 1. Visit the [dealership website](https://www.brstockholmbil.se/) to inspect the customer experience.
-2. Run the local preview below. Change the inventory from 20 → 19, then 20 → 10, to see the safety decision.
+2. Browse the vehicle catalogue, open a vehicle page and explore the contact journey.
 3. Read [sample.mjs](sample.mjs) for selected inventory safeguards and [ARCHITECTURE.md](ARCHITECTURE.md) for the broader system.
 
 ## Problem and contribution
@@ -31,21 +31,15 @@ The implementation connects a Next.js frontend to WordPress content and inventor
 | Interactive dry-run example and tests | Deployment configuration and credentials |
 | Architecture and scope notes | Full frontend and historical commits |
 
-## Run the preview
+## Selected code checks
 
-Requires Python 3 for serving files and Node.js 18+ for tests. No package installation or credentials are needed.
-
-```sh
-python3 -m http.server 8080 --bind 127.0.0.1
-```
-
-Open **http://127.0.0.1:8080**. In a second terminal:
+The main preview opens the actual dealership website. The selected safeguard functions remain available for technical review without sharing the complete application.
 
 ```sh
 npm test
 ```
 
-The preview only evaluates synthetic input locally. It never reads or updates live listings. Passing this guard alone does not mean a source snapshot is valid or that a write should occur.
+These tests use synthetic inventory plans and make no changes to live listings.
 
 ## Outcome and limits
 
