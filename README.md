@@ -1,5 +1,7 @@
 # BR Stockholm Bil — Headless Website & Inventory Automation
 
+**[Open the interactive preview →](https://ismail-bellakhel.github.io/br-stockholm-bil-showcase/)** · [![Verify samples](https://github.com/ismail-bellakhel/br-stockholm-bil-showcase/actions/workflows/verify.yml/badge.svg)](https://github.com/ismail-bellakhel/br-stockholm-bil-showcase/actions/workflows/verify.yml)
+
 **A dealership website connecting vehicle listings, technical SEO and a repeatable publishing workflow.**
 
 Public showcase by **Ismail Bellakhel**. Selected code and an interactive example are included; the complete application and its Git history remain private.
